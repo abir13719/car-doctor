@@ -2,7 +2,7 @@ import { FaGoogle, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer p-32 bg-base-200 text-base-content justify-between">
+    <footer className="footer p-4 lg:p-32 bg-base-200 text-base-content justify-between">
       <aside>
         <svg
           width="60"
@@ -86,25 +86,25 @@ const Footer = () => {
         <div className="flex gap-1">
           <a
             href=""
-            className="bg-base-100 flex items-center justify-center p-2 border-none  text-white  rounded-full"
+            className="bg-base-100 flex items-center justify-center p-2 border-none  rounded-full"
           >
             <FaGoogle />
           </a>
           <a
             href=""
-            className="bg-base-100 flex items-center justify-center p-2 border-none  text-white  rounded-full"
+            className="bg-base-100 flex items-center justify-center p-2 border-none  rounded-full"
           >
             <FaTwitter />
           </a>
           <a
             href=""
-            className="bg-base-100 flex items-center justify-center p-2 border-none  text-white  rounded-full"
+            className="bg-base-100 flex items-center justify-center p-2 border-none  rounded-full"
           >
             <FaInstagram />
           </a>
           <a
             href=""
-            className="bg-base-100 flex items-center justify-center p-2 border-none  text-white  rounded-full"
+            className="bg-base-100 flex items-center justify-center p-2 border-none  rounded-full"
           >
             <FaLinkedin />
           </a>
