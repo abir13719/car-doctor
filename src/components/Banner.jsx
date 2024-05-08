@@ -7,7 +7,7 @@ import banner6 from "../assets/images/banner/6.jpg";
 
 const Banner = () => {
   return (
-    <div className="carousel w-full h-[80vh]">
+    <div className="carousel w-full h-[80vh] my-4">
       {/* Slide 1 */}
       <div id="slide1" className="carousel-item relative w-full rounded-xl overflow-hidden">
         <img src={banner1} className="w-full object-top object-cover" />
